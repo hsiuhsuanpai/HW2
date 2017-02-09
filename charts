@@ -1,7 +1,0 @@
-> par(mfrow=c(2,3)) 
-> plot(x=trees$Girth,y=trees$Height,main="My first scatter plot",xlab ="Girth",ylab = "Height",sub="the larger the girth is,the higher the height is" ,las=1)
-> plot(x=trees$Girth,y=trees$Height,main="My first scatter plot",xlab = "Girth",ylab="Height",type="l",las=1)
-> plot(x=trees$Girth,y=trees$Height,main="My first scatter plot",xlab = "Girth",ylab="Height",type="b",las=1)
-> hist(trees$Girth,main="My first histogram",xlab="Height",las=1) 
-> boxplot(ChickWeight$weight~ChickWeight$Time,las=1,main="My first boxplot")
-> barplot(head(ChickWeight$Time,n=20), names = row.names(time), horiz = FALSE,las=2,cex.names = 0.4,xlab = "time (days)",ylab = "chicks' weight (gm)",main = "My first bar plot")
